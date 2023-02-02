@@ -1,0 +1,11 @@
+.game-container{
+ display: flex;
+ flex-direction: column;
+ background-color: #e5e4e4;
+ width: 400px;
+ border-radius: .25rem;
+}
+
+.testImage{
+width: 100px, 100px;
+}
