@@ -7,18 +7,37 @@ import {
   faTiktok,
 } from "@fortawesome/free-brands-svg-icons";
 
+import PocketBase from "pocketbase";
+import GameLoader from "./components/GameLoader";
+
+const pb = new PocketBase("http://127.0.0.1:8090");
+
 function App() {
   return (
     <>
       <section className="notification-message">
         <div className="notification-message-text">
           <strong className="notification-message-text">Buy me a beer</strong>-{" "}
-          <a href="localhost:3000" className="notification-message-text">
+          <a
+            href="https://www.patreon.com"
+            className="notification-message-text"
+          >
             Patreon
           </a>{" "}
           ----
         </div>
       </section>
+
+      <nav className="navigation-bar">
+        <div className="navigation-element">
+          <a href="localhost:3000" className="navigation-element">
+            <h1>Backwards a to z</h1>
+          </a>
+        </div>
+        <div className="navigation-">
+          <button>Press here</button>
+        </div>
+      </nav>
       <div className="header">
         <p className="test-text">
           SIMPLE TEXT JUST TESTING SOME SHIT WILL CHANGE LATER
@@ -29,37 +48,25 @@ function App() {
         <div className="title-container">
           <h1 className="row-tags">NEW GAME RELEASE</h1>
         </div>
-        <div className="game-list">
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-        </div>
+        <div className="game-list"></div>
       </div>
       {/*PS PLUS GAMES*/}
       <div className="game-row">
         <h1 className="row-tags">PS PLUS GAMES</h1>
         <div className="game-list">
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
+          <GameLoader pb={pb}></GameLoader>
         </div>
       </div>
       {/* Hot now*/}
       <div className="game-row">
         <h1 className="row-tags">Hot now</h1>
-        <div className="game-list">
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-        </div>
+        <div className="game-list"></div>
       </div>
       {/*Comming soon*/}
       <div className="game-row">
         <h1 className="row-tags">Comming soon</h1>
         <div className="game-list">
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
-          <GameComponent></GameComponent>
+          <img src="http://127.0.0.1:8090/api/files/u30lsz38u8u3l23/9claghj2av5hp2d/test_i2bkAalNSs.jpg"></img>
         </div>
       </div>
 
