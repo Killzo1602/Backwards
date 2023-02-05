@@ -10,15 +10,52 @@
   padding: 4px 0px 4px 0px;
 }
 
-.game-list {
+.navigation-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: black;
 }
+
+.navigation-element {
+  font-size: 20px;
+  color: wheat;
+  padding-left: 2rem;
+  text-decoration: none;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.game-list div {
+  color: black;
+  background: #e5e4e4;
+  transition-property: color, background;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.game-list :hover > div {
+  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.8);
+  /* border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem; */
+  color: #fafafa;
+  cursor: pointer;
+}
+
+/* .game-list :hover > .game-image {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+} */
 
 .header {
   display: flex;
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   padding: 1rem;
 }
 
