@@ -1,47 +1,90 @@
-.notification-message-text{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   color: #fff;
-
+.notification-message-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
 }
 
-.notification-message{
-   background-color: #303030;
-   padding: 4px 0px 4px 0px ;
-
+.notification-message {
+  background-color: #303030;
+  padding: 4px 0px 4px 0px;
 }
 
-
-.game-list{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   
+.game-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header{
-   display:flex;
-   background-color: black;
-   padding: 1rem;
+.header {
+  display: flex;
+  background-color: black;
+  padding: 1rem;
 }
 
-.game-row{
-   background-color: rgb(249, 249, 253);
-   /* background-color: red; */
-   padding: 2rem 3rem 2rem 1rem;
-   border-radius: 2rem;
-   margin: 1rem 1rem 3rem 1rem;
+.game-row {
+  background-color: rgb(249, 249, 253);
+  /* background-color: red; */
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  margin: 1rem 1rem 3rem 1rem;
 }
 
-
-.test-text{
-   color: #fff;
-
+.test-text {
+  color: #fff;
 }
 
-.row-tags{
-   color: #4f4f4f;
-   font-size: 1rem;
-   top: 1rem;
+.row-tags {
+  color: #4f4f4f;
+  font-size: 1rem;
+  top: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  justify-content: space-evenly;
+  background-color: rgb(24, 24, 24);
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-column a,
+.footer-column h1 {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.4s ease-in-out;
+}
+
+.footer-column a:hover,
+.footer-column h1:hover {
+  color: cyan;
+}
+.footer-title {
+  border-bottom: #fafafa 1px solid;
+  padding-bottom: 0.5rem;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+}
+
+.fa-square-twitter,
+.fa-square-facebook,
+.fa-tiktok {
+  margin-right: 1rem;
 }
