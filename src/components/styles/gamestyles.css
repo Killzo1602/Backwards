@@ -1,11 +1,23 @@
-.game-container{
- display: flex;
- flex-direction: column;
- background-color: #e5e4e4;
- width: 400px;
- border-radius: .25rem;
+.game-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e5e4e4;
+  width: 400px;
+  border-radius: 0.25rem;
+  transition: color 3s linear;
 }
 
-.testImage{
-width: 100px, 100px;
+.game-img {
+  width: 100px;
+  height: 150px;
+}
+
+.game-container :hover {
+  background-color: #182580;
+}
+
+.game-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
