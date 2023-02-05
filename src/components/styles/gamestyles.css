@@ -2,22 +2,35 @@
   display: flex;
   flex-direction: row;
   background-color: #e5e4e4;
-  width: 400px;
-  border-radius: 0.25rem;
-  transition: color 3s linear;
+  /* border-radius: 0.25rem; */
+  height: 250px;
+  transition: color 1s ease-in-out;
+  flex-basis: 30%;
+  margin: 1rem;
+  border-radius: 2rem;
 }
 
 .game-img {
-  width: 100px;
-  height: 150px;
+  width: 175px;
+  height: 250px;
 }
 
+/* .game-container :hover > *,
 .game-container :hover {
-  background-color: #182580;
-}
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    149deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(97, 97, 201, 1) 100%
+  );
+  border-radius: 0.25rem;
+} */
 
 .game-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: rgb(62, 62, 62);
+  flex-basis: 100%;
+  align-items: center;
 }
