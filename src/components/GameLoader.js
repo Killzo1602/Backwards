@@ -22,13 +22,14 @@ export default function GameLoader(props) {
     <>
       {games.map((game, i) => (
         <GameComponent
-          gameName={game.name1}
+          gameName={game.name}
           releaseDate={game.release_date}
+          gameDeveloper={game.game_developer}
           gameImage={
             "http://127.0.0.1:8090/api/files/u30lsz38u8u3l23/" +
             game.id +
             "/" +
-            game.game_cover
+            game.game_image
           }
         ></GameComponent>
       ))}
