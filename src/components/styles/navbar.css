@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #1a1b1e;
+}
+
+.search-box {
+  outline: none;
+  border: 1px solid #b4b4b4;
+  border-radius: 5px 0 0 5px;
+  background: #f4faf9;
+}
+
+.logo {
+  height: 1.5rem;
+  transform: scale(65%) translate(-5rem);
+}
+
+.logo-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 13.5rem;
+}

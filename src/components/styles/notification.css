@@ -1,0 +1,26 @@
+.notification-message-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+.notification-message {
+  background-color: #303030;
+  padding: 2px 0px 2px 0px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1a1b1e;
+}
+
+.navigation-element {
+  font-size: 15px;
+  color: wheat;
+  padding-left: 2rem;
+  text-decoration: none;
+}
