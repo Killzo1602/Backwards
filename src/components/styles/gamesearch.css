@@ -1,0 +1,11 @@
+.game-search-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: inherit;
+}
+.game-search-collapsible {
+  display: flex;
+  flex-direction: row;
+}

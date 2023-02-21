@@ -14,14 +14,7 @@
 }
 
 .logo {
-  height: 1.5rem;
-  transform: scale(65%) translate(-5rem);
-}
-
-.logo-button {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 13.5rem;
+  width: auto;
+  height: 2rem;
+  transform: scale(65%);
 }

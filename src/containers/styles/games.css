@@ -1,0 +1,16 @@
+.search-component {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.games-home-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-search-button {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
