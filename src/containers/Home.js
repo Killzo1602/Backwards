@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import GameLoader from "../components/GameLoader";
+import SlideShow from "../components/SlideShow";
 import ".//styles/home.css";
 
 export default function Home(props) {
@@ -11,6 +12,9 @@ export default function Home(props) {
         <p className="test-text">
           <Link to="/games">Games</Link>
         </p>
+      </div>
+      <div>
+        <SlideShow></SlideShow>
       </div>
       <div className="game-row">
         <div className="title-container">
