@@ -1,7 +1,27 @@
-import React from 'react'
+import React from "react";
+import { Slide } from "react-slideshow-image";
+import "../components/styles/slideshow.css";
+import CoverTestImage from "../cover.jpg";
 
-export default function SlideShow() {
+const SlideShow = (props) => {
+  const image = props.gameImage;
+
   return (
-    <div>SlideShow</div>
-  )
-}
+    <Slide indicators={true}>
+      <div className="slide-show">
+        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+      </div>
+      <div className="slide-show">
+        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+      </div>
+      <div className="slide-show">
+        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+      </div>
+      <div className="slide-show">
+        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+      </div>
+    </Slide>
+  );
+};
+
+export default SlideShow;

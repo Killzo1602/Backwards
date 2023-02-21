@@ -1,0 +1,14 @@
+/* .slide-show > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cover;
+  height: 350px;
+} */
+
+.slide-show-image {
+  /* display: flex;
+  align-items: center; */
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+}
