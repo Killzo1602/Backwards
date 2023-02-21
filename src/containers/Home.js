@@ -8,13 +8,11 @@ export default function Home(props) {
   const pb = props.pb;
   return (
     <>
+      <SlideShow></SlideShow>
       <div className="header">
         <p className="test-text">
           <Link to="/games">Games</Link>
         </p>
-      </div>
-      <div>
-        <SlideShow></SlideShow>
       </div>
       <div className="game-row">
         <div className="title-container">
