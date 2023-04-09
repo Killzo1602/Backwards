@@ -11,7 +11,7 @@ export default function Home(props) {
       <SlideShow></SlideShow>
       <div className="header">
         <p className="test-text">
-          <Link to="/games">Games</Link>
+          <Link to="/gamelist">Games</Link>
         </p>
       </div>
       <div className="game-row">
