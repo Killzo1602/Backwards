@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <img src={WebsiteLogo} alt="nah" className="logo"></img>
+        <img src={WebsiteLogo} alt="Backward Games" className="logo"></img>
         <div>
           <input
             type="text"
