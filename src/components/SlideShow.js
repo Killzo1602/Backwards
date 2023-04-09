@@ -3,22 +3,31 @@ import { Slide } from "react-slideshow-image";
 import "../components/styles/slideshow.css";
 import CoverTestImage from "../cover.jpg";
 
-const SlideShow = (props) => {
-  const image = props.gameImage;
+const proprietes = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+};
 
+const SlideShow = () => {
   return (
-    <Slide indicators={true}>
+    <Slide autoplay={false}>
       <div className="slide-show">
-        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+        <div>
+          <span>Muie cu ciment</span>
+        </div>
       </div>
       <div className="slide-show">
-        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+        <div>
+          <span>Muie cu ciment</span>
+        </div>
       </div>
       <div className="slide-show">
-        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
-      </div>
-      <div className="slide-show">
-        <img src={CoverTestImage} alt="test" className="slide-show-image"></img>
+        <div>
+          <span>Muie cu ciment</span>
+        </div>
       </div>
     </Slide>
   );
