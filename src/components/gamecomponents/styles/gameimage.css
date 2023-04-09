@@ -1,0 +1,18 @@
+.game-display {
+  position: relative;
+}
+
+.gameplay-blure {
+  display: flex;
+  height: 13rem;
+  width: 100%;
+}
+
+.game-cover-image {
+  position: absolute;
+  height: 10rem;
+  width: 8.5rem;
+  top: 10%;
+  left: 5%;
+  border-radius: 0.2rem;
+}
