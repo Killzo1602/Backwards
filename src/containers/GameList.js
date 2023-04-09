@@ -6,7 +6,7 @@ import GameSearch from "../components/GameSearch";
 
 const pb = new PocketBase("http://127.0.0.1:8090");
 
-export default function Games() {
+export default function GameList() {
   return (
     <>
       <div className="games-home-page">
