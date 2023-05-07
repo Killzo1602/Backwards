@@ -32,9 +32,9 @@ export default function Home(props) {
         <h1 className="row-tags">Hot now</h1>
         <div className="game-list"></div>
       </div>
-      {/*Comming soon*/}
+      {/*Coming soon*/}
       <div className="game-row">
-        <h1 className="row-tags">Comming soon</h1>
+        <h1 className="row-tags">Coming soon</h1>
         <div className="game-list"></div>
       </div>
     </>
