@@ -27,14 +27,14 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-column">
-          <a className="footer-element" href="home-page">
+          <a className="footer-element" href="/">
             Home Page
           </a>
           <a className="footer-element" href="home-page">
             news
           </a>
-          <a className="footer-element" href="home-page">
-            haha
+          <a className="footer-element" href="/about">
+            About
           </a>
         </div>
       </div>

@@ -3,12 +3,15 @@ import React from "react";
 import WebsiteLogo from "../components/Logo.png";
 import "../components/styles/navbar.css";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <div className="navbar">
-        <img src={WebsiteLogo} alt="Backward Games" className="logo"></img>
+        <Link to="/">
+          <img src={WebsiteLogo} alt="Backward Games" className="logo"></img>
+        </Link>
         <div>
           <input
             type="text"
