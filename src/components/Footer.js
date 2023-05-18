@@ -4,6 +4,7 @@ import {
   faFacebookSquare,
   faTwitterSquare,
   faTiktok,
+  faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import ".//styles/footer.css";
 
@@ -25,8 +26,16 @@ export default function Footer() {
             <FontAwesomeIcon icon={faTiktok} />
             TikTok
           </a>
+          <a className="footer-element" href="https://www.instagram.com">
+            <FontAwesomeIcon
+              style={{ marginRight: "1rem" }}
+              icon={faInstagramSquare}
+            />
+            Instagram
+          </a>
         </div>
         <div className="footer-column">
+          <h1 className="footer-element footer-title">Useful Links</h1>
           <a className="footer-element" href="/">
             Home Page
           </a>
