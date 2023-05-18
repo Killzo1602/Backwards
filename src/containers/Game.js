@@ -1,12 +1,12 @@
 import React from "react";
 import GameImage from "../components/gamecomponents/GameImage";
-import GameInformations from "../components/gamecomponents/GameInformations";
+import Game from "../components/gamecomponents/Game";
 
 export default function Games() {
   return (
     <>
       <GameImage></GameImage>
-      <GameInformations></GameInformations>
+      <Game></Game>
     </>
   );
 }
