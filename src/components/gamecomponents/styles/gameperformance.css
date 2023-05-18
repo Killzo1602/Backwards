@@ -1,0 +1,46 @@
+.info-table {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #dddddd;
+}
+
+.info-table div {
+  flex: 41%;
+  padding: 12px;
+  /* background: #e1e1e1; */
+}
+
+.resolution,
+.frame-rate {
+  background: #e7e7e7;
+  font-weight: 450;
+  color: #7d7d7d;
+  padding: 15px;
+}
+
+.pos-frame-rate,
+.pos-resolution {
+  font-weight: 300;
+  color: black;
+  border-bottom: #b3b3b3 1px solid;
+}
+
+.platform-text {
+  font-family: "Roboto condensed", sans-serif;
+  font-weight: 250;
+  margin-left: 2rem;
+}
+
+.check-mark {
+  color: green;
+  font-weight: bold;
+}
+
+.x-mark {
+  color: red;
+  font-weight: bold;
+}

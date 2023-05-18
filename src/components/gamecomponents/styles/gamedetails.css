@@ -1,0 +1,10 @@
+.game-details-box {
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+  margin: 0 4rem 2.5rem;
+}
+
+.game-details-text {
+  font-size: medium;
+}

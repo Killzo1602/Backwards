@@ -6,6 +6,7 @@ import ".//styles/gameimage.css";
 export default function GameImage() {
   return (
     <>
+      {/*ADD RATING  LATER */}
       <div className="game-display">
         <img
           src={GameplayBlure}
