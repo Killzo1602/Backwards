@@ -32,7 +32,7 @@ export default function BaseGame() {
         {/* section */}
         <div className="game-section-informations">
           <p>
-            <FontAwesomeIcon icon={faEye} /> Ray Tracing
+            <FontAwesomeIcon icon={faEye} /> HDR
           </p>
           <p className="check-mark">
             <FontAwesomeIcon icon={faCircleCheck} /> YES
