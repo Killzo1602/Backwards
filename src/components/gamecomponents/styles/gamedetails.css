@@ -5,6 +5,18 @@
   margin: 0 4rem 2.5rem;
 }
 
+.--game-details-box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
 .game-details-text {
   font-size: medium;
+  text-align: center;
+}
+
+.game-details-position {
+  display: flex;
+  flex-direction: column;
 }

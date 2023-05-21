@@ -9,10 +9,25 @@
 }
 
 .game-cover-image {
-  position: absolute;
+  /* position: absolute; */
   height: 10rem;
   width: 8.5rem;
+  /* top: 10%;
+  left: 5%; */
+  border-radius: 0.2rem;
+  margin-right: 2rem;
+}
+
+.game-image-details {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
   top: 10%;
   left: 5%;
-  border-radius: 0.2rem;
+}
+
+.game-image-text {
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
