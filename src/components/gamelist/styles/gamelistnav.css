@@ -1,0 +1,14 @@
+.game-list-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(15, 15, 15);
+  height: 75px;
+}
+
+.game-list-text a {
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 3rem;
+}
