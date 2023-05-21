@@ -45,6 +45,9 @@ export default function Footer() {
           <a className="footer-element" href="/about">
             About
           </a>
+          <a className="footer-element" href="/about">
+            Contact us
+          </a>
         </div>
       </div>
       <div className="footer-copyright">
