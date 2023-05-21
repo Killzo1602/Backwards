@@ -5,6 +5,7 @@ import BaseGame from "./BaseGame";
 import GameDetail from "./GameDetail";
 import AboutGame from "./AboutGame";
 import GamePerformance from "./GamePerformance";
+import UsefulLinks from "./UsefulLinks";
 
 export default function Game() {
   return (
@@ -18,6 +19,10 @@ export default function Game() {
           <GameDetail></GameDetail>
           <AboutGame></AboutGame>
           <GamePerformance></GamePerformance>
+          <UsefulLinks></UsefulLinks>
+          {/* USEFUL LINKS
+TRAILERS - GAMEPLAY - LINK TO STORE
+*/}
         </div>
       </div>
     </>

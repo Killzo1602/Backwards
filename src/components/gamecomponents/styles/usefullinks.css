@@ -1,0 +1,21 @@
+.useful-links {
+  margin-left: 1.5rem;
+  font-size: 12px;
+}
+
+.useful-links-container {
+  padding-top: 1rem;
+}
+
+.useful-links-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.useful-links-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  text-align: center;
+}
