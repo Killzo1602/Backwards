@@ -6,6 +6,7 @@ import ".//styles/home.css";
 
 export default function Home(props) {
   const pb = props.pb;
+
   return (
     <>
       <SlideShow></SlideShow>
