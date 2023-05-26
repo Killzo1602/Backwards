@@ -1,4 +1,4 @@
-/* .game-search-filter {
+.game-search-filter {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -8,4 +8,4 @@
 .game-search-collapsible {
   display: flex;
   flex-direction: row;
-} */
+}

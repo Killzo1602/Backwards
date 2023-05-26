@@ -13,7 +13,9 @@ export default function GameListNav() {
             Home
           </a>
         </div>
-        <h2>Random game</h2>
+        <div className="game-list-text">
+          <a href="/">Random game</a>
+        </div>
       </div>
     </>
   );

@@ -10,22 +10,7 @@ export default function GameSearch() {
           <input type="text"></input>
           <button>Search</button>
         </div>
-        <div className="game-search-filter">
-          <Collapsible
-            buttonText="Developer"
-            className="game-search-collapsible"
-          >
-            <input type="checkbox"></input>
-            <label>Activision</label>
-            <input type="checkbox"></input>
-            <label>Activision</label>
-            <input type="checkbox"></input>
-            <label>Activision</label>
-            <input type="checkbox"></input>
-            <label>Activision</label>
-            <div />
-          </Collapsible>
-        </div>
+        <div className="game-search-filter"></div>
       </div>
     </>
   );
