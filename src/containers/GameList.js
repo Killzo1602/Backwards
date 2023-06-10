@@ -2,16 +2,15 @@ import React from "react";
 import ".//styles/games.css";
 import PocketBase from "pocketbase";
 import GameLoader from "../components/GameLoader";
-import GameSearch from "../components/GameSearch";
+import GameListSearch from "../components/gamelist/GameListSearch";
 
-const pb = new PocketBase("http://127.0.0.1:8090");
-
-export default function GameList() {
+export default function GameList(props) {
   return (
     <>
       <div className="games-home-page">
+        <GameListSearch pb={props.pb} />
         <div className="game-list">
-          <GameLoader pb={pb}></GameLoader>
+          <GameLoader pb={props.pb}></GameLoader>
         </div>
       </div>
     </>
