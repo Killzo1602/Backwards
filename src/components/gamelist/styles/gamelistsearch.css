@@ -1,0 +1,37 @@
+.game-list-box {
+  display: flex;
+  width: 100%;
+  padding-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+
+.game-list-legend {
+  font-size: medium;
+  padding-bottom: 10px;
+  font-weight: 850;
+}
+
+.game-list-search-box {
+  width: 100%;
+}
+
+.game-list-components {
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.game-list-search-button {
+  width: 100%;
+  background-color: #0589e7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
