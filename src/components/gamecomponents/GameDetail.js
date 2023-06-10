@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/gamedetails.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBarsProgress,
   faDisplay,
   faDollarSign,
   faGlobe,
