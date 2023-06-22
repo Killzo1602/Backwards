@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Backwards/static/css/main.2678a129.css",
+    "main.js": "/Backwards/static/js/main.5f675575.js",
+    "static/js/787.2d1bd9f4.chunk.js": "/Backwards/static/js/787.2d1bd9f4.chunk.js",
+    "static/media/cover.jpg": "/Backwards/static/media/cover.f4b99ac65ab7fa0bca3e.jpg",
+    "static/media/GameCover.png": "/Backwards/static/media/GameCover.586bff0801935d90f191.png",
+    "static/media/Logo_full.png": "/Backwards/static/media/Logo_full.85cb0021a994ced7c8a9.png",
+    "index.html": "/Backwards/index.html",
+    "main.2678a129.css.map": "/Backwards/static/css/main.2678a129.css.map",
+    "main.5f675575.js.map": "/Backwards/static/js/main.5f675575.js.map",
+    "787.2d1bd9f4.chunk.js.map": "/Backwards/static/js/787.2d1bd9f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2678a129.css",
+    "static/js/main.5f675575.js"
+  ]
+}
