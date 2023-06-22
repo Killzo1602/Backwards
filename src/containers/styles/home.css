@@ -1,4 +1,7 @@
 @media screen and (max-width: 820px) {
+  .game-list {
+    flex-direction: column;
+  }
 }
 
 .header {
@@ -48,3 +51,5 @@
   color: #fafafa;
   cursor: pointer;
 }
+
+
