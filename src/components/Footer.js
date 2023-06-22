@@ -39,14 +39,14 @@ export default function Footer() {
           <a className="footer-element" href="/">
             Home Page
           </a>
-          <a className="footer-element" href="home-page">
-            news
-          </a>
           <a className="footer-element" href="/about">
             About
           </a>
-          <a className="footer-element" href="/about">
+          <a className="footer-element" href="/contact-us">
             Contact us
+          </a>
+          <a className="footer-element" href="home-page">
+            Random Game
           </a>
         </div>
       </div>

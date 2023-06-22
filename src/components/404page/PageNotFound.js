@@ -11,7 +11,7 @@ export default function PageNotFound() {
       <div className="not-found-box-text">
         <div className="not-found-box">
           <p className="not-found-p">
-            The page you are looking for might have been removed had its name
+            The page you are looking for might have been removed, had its name
             changed or is temporary unavilable
           </p>
         </div>

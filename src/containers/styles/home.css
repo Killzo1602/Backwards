@@ -1,3 +1,6 @@
+@media screen and (max-width: 820px) {
+}
+
 .header {
   display: flex;
   background-color: rgb(15, 15, 15);

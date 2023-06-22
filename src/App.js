@@ -1,14 +1,16 @@
 import "./App.css";
+import PocketBase from "pocketbase";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import About from "./components/About/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import NotificationMessage from "./components/NotificationMessage";
 import Home from "./containers/Home";
-import NotFound from "./containers/NotFound";
 import GameList from "./containers/GameList";
 import Game from "./containers/Game";
-
-import PocketBase from "pocketbase";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageNotFound from "./components/404page/PageNotFound";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 const pb = new PocketBase("http://127.0.0.1:8090");
 
@@ -22,8 +24,9 @@ function App() {
           <Route path="/" element={<Home pb={pb} />}></Route>
           <Route path="/gamelist" element={<GameList pb={pb} />}></Route>
           <Route path="/game" element={<Game />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
-          <Route path="/About"></Route>
+          <Route path="*" element={<PageNotFound />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Contact-us" element={<ContactUs />}></Route>
         </Routes>
       </BrowserRouter>
       <Footer></Footer>

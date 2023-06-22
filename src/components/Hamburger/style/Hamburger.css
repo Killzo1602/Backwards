@@ -1,0 +1,27 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.5rem);
+  background-color: white;
+  padding: 0.75rem;
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.hamburger-button {
+  border: 1rem solid red;
+  color: red;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0px);
+  pointer-events: auto;
+}
