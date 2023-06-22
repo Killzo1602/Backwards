@@ -29,19 +29,22 @@
 .hamburger-menu:hover {
   cursor: pointer;
 }
-
 .hamburger-menu:hover > .line {
+  background-color: rgb(247, 88, 88);
+}
+
+.hamburger-menu.clicked > .line {
   margin-top: 0 !important;
   background-color: rgb(247, 88, 88);
 }
 
 
 
-.hamburger-menu:hover #first-line {
+.hamburger-menu.clicked #first-line {
  width: 35px;
  transform: rotateZ(-45deg);
 }
 
-.hamburger-menu:hover #second-line {
+.hamburger-menu.clicked #second-line {
  transform: rotateZ(45deg);
 }
