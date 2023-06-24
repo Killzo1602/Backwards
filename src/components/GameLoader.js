@@ -26,7 +26,7 @@ export default function GameLoader(props) {
           releaseDate={game.release_date}
           gameDeveloper={game.game_developer}
           gameImage={
-            "http://127.0.0.1:8090/api/files/u30lsz38u8u3l23/" +
+            "https://backend.backward-games.com/api/files/u30lsz38u8u3l23/" +
             game.id +
             "/" +
             game.game_image
